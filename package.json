@@ -1,0 +1,24 @@
+{
+  "name": "hybrid-llm-example",
+  "version": "1.0.0",
+  "description": "Example of using large and small LLMs for code generation",
+  "main": "hybrid-llm-example.js",
+  "type": "module",
+  "scripts": {
+    "start": "node hybrid-llm-example.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "llm",
+    "code-generation",
+    "openai",
+    "ollama"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ollama": "*",
+    "openai": "*"
+  }
+}
